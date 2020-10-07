@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="40dp"
+    tools:context=".Activities.CreateActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="216dp"
+        android:layout_height="225dp"
+        android:layout_marginLeft="80dp"
+        app:srcCompat="@drawable/add" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="7dp"
+        android:orientation="vertical">
+
+
+
+        <EditText
+            android:id="@+id/etName"
+            android:layout_width="215dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="85dp"
+            android:background="@drawable/custom_input"
+            android:drawableLeft="@drawable/ic_person"
+            android:drawablePadding="8dp"
+            android:hint="Empleado"
+            android:paddingLeft="7dp" />
+
+        <EditText
+            android:id="@+id/etSalary"
+            android:layout_width="215dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="85dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/custom_input"
+            android:drawableLeft="@drawable/ic_dollar"
+            android:drawablePadding="8dp"
+            android:hint="Salario"
+            android:inputType="numberDecimal"
+            android:paddingLeft="8dp"
+            android:scrollbars="vertical" />
+
+
+
+        <Button
+            android:id="@+id/btn_registrar"
+            android:layout_width="215dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="85dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/custom_button"
+            android:text="Registrar Empleado"
+            android:textAllCaps="false"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp" />
+
+    </LinearLayout>
+
+
+</LinearLayout>
